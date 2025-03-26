@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/peli.css"> <!--mun oma CSS-->
+    <script src= "anime.min.js/anime.min.js"></script> <!--anime.min.js-->
+    
+
+    <title> Arvaa liput </title>
+  </head>
+  <body class="taustakuva"> 
+    <img class="kuva" src="IMG/ranta.jpg">
+
+  <div class="palkki1">
+    <h1>Arvaa liput</h1>
+  </div>
+    <!---maan liput-->
+  <div id="lippu-grid" class="row">
+    <div class="row"> 
+      <div class="col-6 col-sm-2 col-md-2">
+        <img src="IMG/alankomaat.png" class="ticket">
+        <div class="vastaukset"></div>
+        <input type="text" class="boxi change-color" placeholder="Syötä vastaus">
+      </div>
+      <div class="col-6 col-sm-2 col-md-2">
+        <img src="IMG/bulgaria.png" class="ticket">
+        <div class="vastaukset"></div>
+        <input type="text" class="boxi change-color" placeholder="Syötä vastaus">
+      </div>
+      <div class="col-6 col-sm-2 col-md-2">
+        <img src="IMG/chile.png" class="ticket">
+        <div class="vastaukset"></div>
+        <input type="text" class="boxi change-color" placeholder="Syötä vastaus">
+      </div>
+      <div class="col-6 col-sm-2 col-md-2">
+        <img src="IMG/intia.png" class="ticket">
+        <div class="vastaukset"></div>
+        <input type="text" class="boxi change-color" placeholder="Syötä vastaus">
+      </div>
+      <div class="col-6 col-sm-2 col-md-2">
+        <img src="IMG/itavalta.png" class="ticket">
+        <div class="vastaukset"></div>
+        <input type="text" class="boxi change-color" placeholder="Syötä vastaus">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6 col-sm-2 col-md-2">
+        <img src="IMG/jamaika.png" class="ticket">
+        <div class="vastaukset"></div>
+        <input type="text" class="boxi change-color" placeholder="Syötä vastaus">
+      </div>
+      <div class="col-6 col-sm-2 col-md-2">
+        <img src="IMG/japani.png" class="ticket">
+        <div class="vastaukset"></div>
+        <input type="text" class="boxi change-color" placeholder="Syötä vastaus">
+      </div>
+      <div class="col-6 col-sm-2">
+        <img src="IMG/kreikka.png" class="ticket">
+        <div class="vastaukset"></div>
+        <input type="text" class="boxi change-color" placeholder="Syötä vastaus">
+      </div>
+      <div class="col-6 col-sm-2 col-md-2">
+        <img src="IMG/latvia.png" class="ticket">
+        <div class="vastaukset"></div>
+        <input type="text" class="boxi change-color" placeholder="Syötä vastaus">
+      </div>
+      <div class="col-6 col-sm-2 col-md-2">
+        <img src="IMG/meksiko.png" class="ticket">
+        <div class="vastaukset"></div>
+        <input type="text" class="boxi change-color" placeholder="Syötä vastaus">
+      </div>
+      </div>
+    </div>
+  </div>
+  <br><br>
+  
+  <div class="col">
+    <!-- Tähän tulee button ja tulokset -->
+    <div class="text-center d-block">
+        <button id="submit-guess" class="painike change-color">Näytä tulokset</button>
+    </div>  <br>
+    <div class="text-center d-block" id="tulokset">
+         <p></p>
+    </div>
+  </div>
+</div>
+
+<!-- jQuery ja Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<!-- Oma JS -->
+<script src="JS/peli.js"></script>
+</body>
+</html>
