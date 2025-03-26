@@ -1,2 +1,2 @@
 # Verkkokauppa sivut (1.vuosi)
-Tässä on linkki nettisivuihini: https://blogi.eoppimispalvelut.fi/sallanjouluherkut/cart/
+Tässä on linkki mun tekemään verkkokauppaan/Wordpress: https://blogi.eoppimispalvelut.fi/sallanjouluherkut/cart/
