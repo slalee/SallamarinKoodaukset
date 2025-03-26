@@ -1,0 +1,186 @@
+.sivuntausta
+{
+    background-color:lightgrey;
+}
+.header
+{
+    background-color:thistle;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    
+}
+.p2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+.logo
+{
+    
+    
+    width: auto;
+    height: 80px;
+    margin: 4px;
+    
+    
+    
+    
+
+   
+}
+.nav-link
+{
+    color: black!important;
+    font-family:'Times New Roman', Times, serif;
+    font-style:normal;
+    font-size: large!important;
+    
+    
+
+}
+.nav-link:hover
+{
+    background-color:lightblue;
+    color: coral!important;
+}
+
+
+.kuva
+{
+    margin: 33px;
+    padding: 1px;
+    box-shadow:6px 6px 4px 6px ghostwhite ;
+    
+}
+.teksti
+{
+    margin: 7px!important;
+    font-style: italic;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.footer
+{
+    background-color:thistle;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    margin: 10px;
+
+}
+.kuva2
+{
+    margin: 17px;
+    padding: 2px;
+    box-shadow:6px 6px 4px 6px ghostwhite ;
+      
+}
+.aikataulu
+{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 3px;
+}
+.taustaesittely
+{
+    background-color: lightgrey;
+}
+.container
+{
+    
+    font-family:'Times New Roman', Times, serif;
+    text-decoration:dashed;
+
+}
+
+.col-md-4
+{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.container1
+{
+    
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    color: black;
+    font-size: medium;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container13
+{
+ font-family: 'Times New Roman', Times, serif;
+}
+.asia
+{
+ height: 190px;
+}
+.miina
+{
+    background-color: antiquewhite;
+    float: left!important;
+}
+.title
+{
+    margin-bottom: 2rem;
+}
+
+
+.contti
+{
+    display: flex!important;
+    flex-wrap: wrap;
+    justify-content:center;
+    }
+.img{   
+    
+         width:222px;
+        margin: 4px;
+        transition: all 2s;
+    }
+.img:hover
+    {
+        transform: scale(1.1)
+    }
+.wrapper
+{
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:thistle;
+    color: black;
+    grid-gap: 5px;
+    margin: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    
+    
+     
+}
+
+.contti8
+{
+    display: flex!important;
+    flex-wrap: wrap;
+    justify-content:center; 
+    
+}
+.contti9
+{
+    display: flex!important;
+    flex-wrap: wrap;
+    justify-content:center; 
+    height: auto;
+    
+}
