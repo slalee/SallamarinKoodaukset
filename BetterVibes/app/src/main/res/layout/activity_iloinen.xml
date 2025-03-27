@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#B2E6D4"
+    tools:context=".IloinenActivity">
+
+    <!-- Taustakuva -->
+    <ImageView
+        android:id="@+id/iloinenImage"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:contentDescription="Iloinen kuva"
+        android:scaleType="centerCrop"
+        android:src="@drawable/happy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Teksti "Iloinen mieliala" -->
+    <TextView
+        android:id="@+id/iloinenText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:fontFamily="@font/spinnaker"
+        android:gravity="center"
+        android:text=" 🧡Tällä sivulla näet aiheeseen sopivia linkkejä ja vinkkejä hyvän olon ylläpitoon🧡"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iloinenImage" />
+
+    <!-- YouTube/Spotify Linkki -->
+
+    <!-- Musiikkilinkki Esimerkki -->
+
+    <!-- Takaisin-nappi -->
+
+    <TextView
+        android:id="@+id/youtubeLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="172dp"
+        android:autoLink="web"
+        android:gravity="center"
+        android:linksClickable="true"
+        android:text="https://www.youtube.com/watch?v=hT_nvWreIhg&amp;list=PLhGO2bt0EkwvRUioaJMLxrMNhU44lRWg8"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/youtubeLink2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="216dp"
+        android:autoLink="web"
+        android:gravity="center"
+        android:linksClickable="true"
+        android:text="https://areena.yle.fi/podcastit/1-3945832"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.284"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="406dp"
+        android:layout_height="104dp"
+        android:layout_marginBottom="132dp"
+        android:fontFamily="@font/adamina"
+        android:text="Mukavaa tekemistä hyvään päivään:
+        liikunta, jooga, kirpputori, kahvilat, luonnossa liikkuminen, lempimusiikin kuuntelu, elokuvahetki herkuilla"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/youtubeLink"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="88dp"
+        android:fontFamily="@font/antic_didone"
+        android:text="Onnellisuus alkaa meistä itsestämme"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/youtubeLink"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="166dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="370dp"
+        android:backgroundTint="#A9B58D"
+        android:text="Takaisin "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iloinenText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

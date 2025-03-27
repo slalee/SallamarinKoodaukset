@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/adamina</item>
+        <item>@font/antic_didone</item>
+        <item>@font/archivo_narrow</item>
+        <item>@font/arimo</item>
+        <item>@font/bellota</item>
+        <item>@font/bodoni_moda</item>
+        <item>@font/bona_nova</item>
+        <item>@font/gentium_book_basic</item>
+        <item>@font/spinnaker</item>
+    </array>
+</resources>
