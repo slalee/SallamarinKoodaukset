@@ -5,7 +5,7 @@ Tässä on linkki mun tekemään verkkokauppaan/Wordpress: https://blogi.eoppimi
 https://tietojenkasittely.lapinamk.fi/TA42T23K/sallamarikouvala/
 
 # Portfolio (3.vuosi)
-Linkki: https://astounding-haupia-portfoliosallak.netlify.app
+
 
 
 

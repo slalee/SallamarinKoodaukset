@@ -1,0 +1,194 @@
+/* Yleiset tyylit */
+body {
+    font-family: monospace;
+    background-color: #333;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headerin tyylit */
+.header h2, .header p {
+    text-align: center;
+    margin-bottom: 10px; 
+    font-family: monospace;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+/* Navigaatio */
+.nav-item p {
+    margin: 20px;
+    padding: 10px;
+}
+
+.navbar-nav .nav-link {
+    color:black; /* Linkkien hover-väri */
+    transition: color 0.3s ease, transform 0.3s ease; /* Sujuva värimuutos ja liike */
+    margin: 10px;
+    padding-top: 10px;
+}
+
+/* Pääsisällön tyylit */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    height: auto; 
+    margin-top: 80px; 
+}
+
+/* Kuvien ja tekstin välinen marginaali */
+.mb-4 {
+    margin-bottom: 30px; 
+}
+
+/* Esittelyteksti */
+.esittelyteksti p {
+    text-align: center;
+    font-size: 1.0rem;
+    font-family: monospace;
+    margin: 0;
+}
+
+/* Kuvan tyylit */
+.kuva2, .kuva4 {
+    width: 70%; 
+    max-width: 380px; 
+    height: auto;
+    margin-top: 15px; 
+    padding-top: 10px;
+    margin-bottom: 20px; 
+}
+.font {
+    font-family: monospace;
+    font-size:medium;
+}
+/* Sisältölaatikon tyylit */
+.bg-white {
+    background-color:lightsteelblue;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.bg {
+    background-color:lightgray;
+}
+.text-dark {
+    color: #333; 
+}
+
+.shadow {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.p-3 {
+    padding: 15px;
+}
+
+/* Hover-efekti kuville */
+.img-fluid:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover navigaatio linkeille */
+.navbar-nav .nav-link:hover {
+    color:plum; /* Kirkas väri hoverilla */
+}
+
+.footer p {
+    margin: 5px 0; 
+    font-size: 1rem; 
+}
+
+/* Footerin tyylit */
+.footer {
+    background-color: rosybrown;
+    padding: 20px;
+    margin-top: 30px; /* Lisää tilaa jalkapalkin ympärille */
+}
+
+/* Responsiivisuus mobiililaitteille */
+@media (max-width: 768px) {
+    .header h2 {
+        font-size: 1.2rem; /* Pienennä otsikon kokoa mobiilissa */
+    }
+
+    .main-content {
+        margin-top: 50px; /* Pienennä tilaa pääsisällön ja navbarin välillä mobiilissa */
+    }
+
+    .kuva2, .kuva4 {
+        width: 90%; /* Kuvien leveys pienenee mobiilissa */
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1rem; /* Pienennä linkkien fonttikokoa mobiilissa */
+    }
+
+    .footer p {
+        font-size: 0.9rem; /* Pienennä jalkapalkin tekstiä mobiilissa */
+    }
+}
+.card {
+    background-color: #444; /* Taustan väri kortille */
+    color: white; /* Tekstin väri */
+}
+
+.card h3 {
+    font-size: 1.5rem;
+}
+
+.card ul li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+.card i {
+    color: lightpink; /* Ikonien väri */
+}
+
+.card a {
+    color: lightpink;
+    transition: color 0.3s ease;
+}
+
+.card a:hover {
+    color: #f7a7b7; /* Linkin hover-väri */
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    
+}
+
+/* Mobiilireagoivuutta varten */
+@media (max-width: 768px) {
+    .card {
+        padding: 20px;
+    }
+
+    .card h3 {
+        font-size: 1.2rem;
+    }
+
+    .card img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .card i {
+        font-size: 1.5rem;
+    }
+}
+.nimi{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin: 10px;
+    padding: 7px;
+
+}
