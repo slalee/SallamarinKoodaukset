@@ -1,6 +1,6 @@
 /* Yleiset tyylit */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: monospace;
     background-color: #333;
     color: white;
     margin: 0;
@@ -11,19 +11,19 @@ body {
 .header h2, .header p {
     text-align: center;
     margin-bottom: 10px; 
-    font-family:sans-serif;
-    font-size: 1.5rem;
+    font-family: monospace;
+    font-size: 1.2rem;
     margin-top: 20px;
 }
 
 /* Navigaatio */
 .nav-item p {
     margin: 20px;
-    padding: 10;
+    padding: 10px;
 }
 
 .navbar-nav .nav-link {
-    color: lightpink; /* Linkkien hover-väri */
+    color:black; /* Linkkien hover-väri */
     transition: color 0.3s ease, transform 0.3s ease; /* Sujuva värimuutos ja liike */
     margin: 10px;
     padding-top: 10px;
@@ -33,56 +33,57 @@ body {
 .main-content {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Keskittää sisältö vaakasuunnassa */
-    justify-content: center; /* Keskittää sisältö pystysuunnassa */
-    height: 80vh; /* Määrittää, että kontaineri täyttää 80% näytön korkeudesta */
-}
-
-.main-content .row {
-    margin-bottom: 30px; /* Lisää tilaa rivien väliin */
+    align-items: center; 
+    justify-content: center; 
+    height: auto; 
+    margin-top: 80px; 
 }
 
 /* Kuvien ja tekstin välinen marginaali */
 .mb-4 {
-    margin-bottom: 26px; 
+    margin-bottom: 30px; 
 }
 
 /* Esittelyteksti */
 .esittelyteksti p {
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.0rem;
+    font-family: monospace;
     margin: 0;
 }
 
 /* Kuvan tyylit */
 .kuva2, .kuva4 {
-    width: 50%; 
+    width: 70%; 
+    max-width: 380px; 
     height: auto;
     margin-top: 15px; 
     padding-top: 10px;
+    margin-bottom: 20px; 
 }
-
+.font {
+    font-family: monospace;
+    font-size:medium;
+}
 /* Sisältölaatikon tyylit */
 .bg-white {
-    background-color: lightblue;
+    background-color:lightsteelblue;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
-
+.bg {
+    background-color:lightgray;
+}
 .text-dark {
     color: #333; 
 }
 
 .shadow {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
 .p-3 {
     padding: 15px;
-}
-
-.mb-4 {
-    margin-bottom: 30px; 
 }
 
 /* Hover-efekti kuville */
@@ -94,43 +95,100 @@ body {
 
 /* Hover navigaatio linkeille */
 .navbar-nav .nav-link:hover {
-    color: #f7a7b7; /* Kirkas väri hoverilla */
+    color:plum; /* Kirkas väri hoverilla */
 }
 
 .footer p {
     margin: 5px 0; 
     font-size: 1rem; 
+}
+
+/* Footerin tyylit */
+.footer {
+    background-color: rosybrown;
+    padding: 20px;
+    margin-top: 30px; /* Lisää tilaa jalkapalkin ympärille */
+}
+
+/* Responsiivisuus mobiililaitteille */
+@media (max-width: 768px) {
+    .header h2 {
+        font-size: 1.2rem; /* Pienennä otsikon kokoa mobiilissa */
+    }
+
+    .main-content {
+        margin-top: 50px; /* Pienennä tilaa pääsisällön ja navbarin välillä mobiilissa */
+    }
+
+    .kuva2, .kuva4 {
+        width: 90%; /* Kuvien leveys pienenee mobiilissa */
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1rem; /* Pienennä linkkien fonttikokoa mobiilissa */
+    }
+
+    .footer p {
+        font-size: 0.9rem; /* Pienennä jalkapalkin tekstiä mobiilissa */
+    }
+}
+.card {
+    background-color: #444; /* Taustan väri kortille */
+    color: white; /* Tekstin väri */
+}
+
+.card h3 {
+    font-size: 1.5rem;
+}
+
+.card ul li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+.card i {
+    color: lightpink; /* Ikonien väri */
+}
+
+.card a {
+    color: lightpink;
+    transition: color 0.3s ease;
+}
+
+.card a:hover {
+    color: #f7a7b7; /* Linkin hover-väri */
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
     
 }
-.footer {
-    background-color:rosybrown;
-    padding: 20px;
-    margin: 30px;
-}
-/* LinkedIn-painikkeen tyylit */
-.my-custom-button {
-    background-color: #0077b5; /* LinkedInin väri */
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
 
-.my-custom-button:hover {
-    background-color: #005e8c; 
+/* Mobiilireagoivuutta varten */
+@media (max-width: 768px) {
+    .card {
+        padding: 20px;
+    }
+
+    .card h3 {
+        font-size: 1.2rem;
+    }
+
+    .card img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .card i {
+        font-size: 1.5rem;
+    }
 }
+.nimi{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin: 10px;
+    padding: 7px;
 
-.fade-in {
-    opacity: 0;
-    transform: translateY(20px); 
-    transition: opacity 1s ease, transform 2s ease; 
-  }
-  
-
-  .fade-in.visible {
-    opacity: 2;
-    transform: translateY(0); 
-  }
+}
